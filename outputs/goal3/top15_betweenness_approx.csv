@@ -1,0 +1,16 @@
+airport,name,country,betweenness_approx
+LAX,Los Angeles International Airport,United States,0.06966430506456917
+ANC,Ted Stevens Anchorage International Airport,United States,0.06423336844125203
+DXB,Dubai International Airport,United Arab Emirates,0.05802700110947965
+CDG,Charles de Gaulle International Airport,France,0.05455258557075912
+ORD,Chicago O'Hare International Airport,United States,0.05252827293542126
+GRU,Guarulhos - Governador André Franco Montoro International Airport,Brazil,0.049624267538821376
+FRA,Frankfurt am Main Airport,Germany,0.04942980204326193
+PEK,Beijing Capital International Airport,China,0.047127830357988156
+SEA,Seattle Tacoma International Airport,United States,0.046092240868235324
+IST,Istanbul Airport,Turkey,0.044904503777288815
+AMS,Amsterdam Airport Schiphol,Netherlands,0.04200071770398569
+YYZ,Lester B. Pearson International Airport,Canada,0.04107250568711707
+LHR,London Heathrow Airport,United Kingdom,0.03946978031118688
+ATL,Hartsfield Jackson Atlanta International Airport,United States,0.03880304803125445
+NRT,Narita International Airport,Japan,0.03352867600559099

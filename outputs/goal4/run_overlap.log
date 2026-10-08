@@ -1,0 +1,25 @@
+maximal cliques: 22780, max size 24, enumeration 0.3s
+3 164 12.4 s {'node_coverage': 0.7127007299270073, 'shen_EQ': 0.07133245693081434, 'mean_conductance': 0.6681834522050772, 'n_overlap_nodes': 94}
+4 57 8.9 s {'node_coverage': 0.45284671532846715, 'shen_EQ': 0.06887802605980885, 'mean_conductance': 0.6879871020413961, 'n_overlap_nodes': 71}
+5 22 6.0 s {'node_coverage': 0.32934306569343064, 'shen_EQ': 0.061300155279226096, 'mean_conductance': 0.7423532720890919, 'n_overlap_nodes': 51}
+6 9 4.1 s {'node_coverage': 0.2586861313868613, 'shen_EQ': 0.05514092899846766, 'mean_conductance': 0.8523879445253445, 'n_overlap_nodes': 37}
+8 7 2.6 s {'node_coverage': 0.17343065693430657, 'shen_EQ': 0.06537601291949169, 'mean_conductance': 0.8119821253524957, 'n_overlap_nodes': 30}
+                                   0         1         2         3         4
+method                       CPM k=3   CPM k=4   CPM k=5   CPM k=6   CPM k=8
+n_communities                    164        57        22         9         7
+n_covered                       2441      1551      1128       886       594
+node_coverage               0.712701  0.452847  0.329343  0.258686  0.173431
+size_min                           3         4         5         6         8
+size_median                      3.0       4.0       5.0       7.0       8.0
+size_max                        1960      1373      1071       867       572
+n_size_ge10                       10         4         1         2         2
+mean_conductance            0.668183  0.687987  0.742353  0.852388  0.811982
+median_conductance          0.694639  0.705882   0.77655  0.898833  0.837963
+size_weighted_conductance    0.49012  0.531434  0.558264  0.575265  0.545249
+vol_weighted_conductance    0.505005  0.532583  0.563035  0.585823  0.550027
+n_overlap_nodes                   94        71        51        37        30
+mean_memberships            1.063089  1.055448  1.051418  1.042889  1.050505
+max_memberships                    8         5         3         3         2
+shen_EQ                     0.071332  0.068878    0.0613  0.055141  0.065376
+k                                  3         4         5         6         8
+seconds                    12.359127  8.903097  5.965982  4.138546  2.581006

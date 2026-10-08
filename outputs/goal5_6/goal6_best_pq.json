@@ -1,0 +1,12 @@
+{
+ "p": 2.0,
+ "q": 0.5,
+ "dim": 64,
+ "num_walks": 10,
+ "walk_len": 40,
+ "window": 5,
+ "neg": 5,
+ "epochs": 3,
+ "lr0": 0.1,
+ "tune_seed": 100
+}

@@ -1,0 +1,12 @@
+p=1 q=1 val cosine AUC=0.9084
+p=0.5 q=2 val cosine AUC=0.8823
+p=2 q=0.5 val cosine AUC=0.9157
+p=1 q=0.5 val cosine AUC=0.9124
+p=1 q=2 val cosine AUC=0.8947
+selected (p,q) = (2.0, 0.5)
+saved embeddings inner seed 0
+saved embeddings train seed 0
+saved embeddings inner seed 1
+saved embeddings train seed 1
+saved embeddings inner seed 2
+saved embeddings train seed 2

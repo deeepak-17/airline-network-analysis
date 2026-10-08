@@ -1,0 +1,16 @@
+airport,name,country,degree_undirected,rank_degree_undirected,rank_pagerank,rank_gap,mean_inneighbour_pr,frac_nbr_top50
+SUF,Lamezia Terme Airport,Italy,22,409,703,-288.5,0.0014237289675432985,0.14285714285714285
+SZG,Salzburg Airport,Austria,21,421,709,-279.0,0.0015810333892480432,0.15
+SCQ,Santiago de Compostela Airport,Spain,22,409,681,-266.5,0.0015372828277960095,0.19047619047619047
+PIK,Glasgow Prestwick Airport,United Kingdom,21,421,694,-264.0,0.000928362709176835,0.047619047619047616
+FMM,Memmingen Allgau Airport,Germany,21,421,688,-258.0,0.0009677410827161216,0.0
+VRN,Verona Villafranca Airport,Italy,23,393,646,-245.5,0.0017016394423333624,0.3181818181818182
+BJV,Milas Bodrum International Airport,Turkey,21,421,675,-245.0,0.0016037238556540067,0.2
+MAH,Menorca Airport,Spain,26,362,606,-236.5,0.001584930957672031,0.2
+NBE,Enfidha - Hammamet International Airport,Tunisia,28,352,591,-236.0,0.0015755671730215293,0.2
+DJE,Djerba Zarzis International Airport,Tunisia,25,378,611,-229.5,0.0015384250303630928,0.21739130434782608
+MPL,Montpellier-Méditerranée Airport,France,20,440,679,-228.5,0.001386544499140922,0.25
+WMI,Modlin Airport,Poland,26,362,597,-227.5,0.0010282395893048246,0.038461538461538464
+CWL,Cardiff International Airport,United Kingdom,21,421,656,-226.0,0.0013118876381009758,0.15789473684210525
+ZAD,Zadar Airport,Croatia,24,386,614,-225.0,0.0011651500471707942,0.08333333333333333
+BFS,Belfast International Airport,United Kingdom,29,339,562,-217.0,0.0014394610224348567,0.18518518518518517

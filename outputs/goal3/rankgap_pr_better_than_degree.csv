@@ -1,0 +1,16 @@
+airport,name,country,degree_undirected,rank_degree_undirected,rank_pagerank,rank_gap,mean_inneighbour_pr,frac_nbr_top50
+HIR,Honiara International Airport,Solomon Islands,21,421,114,316.0,0.0004845936437468359,0.05263157894736842
+FAI,Fairbanks International Airport,United States,24,386,84,305.0,0.0004486890034901985,0.0
+BET,Bethel Airport,United States,29,339,44,301.0,0.00033728838028435304,0.0
+VLI,Bauerfield International Airport,Vanuatu,21,421,134,296.0,0.000686505060213712,0.1
+WLG,Wellington International Airport,New Zealand,21,421,188,242.0,0.000611040108843771,0.09523809523809523
+ANC,Ted Stevens Anchorage International Airport,United States,34,287,55,234.5,0.001181188302600857,0.17647058823529413
+PPT,Faa'a International Airport,French Polynesia,32,303,79,230.5,0.0005109036008963442,0.034482758620689655
+CHC,Christchurch International Airport,New Zealand,21,421,205,225.0,0.0008047400893378583,0.14285714285714285
+UPG,Hasanuddin International Airport,Indonesia,26,362,148,221.5,0.0005541130709738351,0.07692307692307693
+MYY,Miri Airport,Malaysia,20,440,244,206.5,0.0006177798392349423,0.15
+ADL,Adelaide International Airport,Australia,26,362,164,205.5,0.0010813988296701905,0.23076923076923078
+CNS,Cairns International Airport,Australia,30,324,129,202.0,0.000850024554520971,0.10344827586206896
+FIH,Ndjili International Airport,Congo (Kinshasa),20,440,249,201.5,0.0011907715308105227,0.15789473684210525
+DRW,Darwin International Airport,Australia,20,440,255,195.5,0.001145726863024594,0.25
+NAN,Nadi International Airport,Fiji,24,386,194,195.0,0.001141881376322907,0.21739130434782608

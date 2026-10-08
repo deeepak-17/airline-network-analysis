@@ -1,0 +1,25 @@
+negatives,kind,regime,method,auc,ap,p@npos,p@100,p@1000,precision@0.5,recall@0.5,auc_sd,ap_sd,p@npos_sd,p@100_sd,p@1000_sd,precision@0.5_sd,recall@0.5_sd
+degree,heuristic,G_train,adamic_adar,0.922,0.9064,0.8458,0.976,0.954,,,0.0032,0.0047,0.0054,0.0114,0.0067,,
+degree,heuristic,G_train,common_neighbours,0.9114,0.89,0.831,0.978,0.945,,,0.0035,0.0055,0.0052,0.0084,0.0086,,
+degree,heuristic,G_train,jaccard,0.93,0.9132,0.8594,0.968,0.95,,,0.0027,0.0049,0.0027,0.013,0.0034,,
+degree,heuristic,G_train,pref_attachment,0.6996,0.6665,0.6433,0.814,0.704,,,0.0048,0.0075,0.0057,0.0404,0.0099,,
+degree,heuristic,G_train,resource_allocation,0.937,0.9234,0.8682,0.97,0.9608,,,0.0022,0.0029,0.0044,0.0122,0.005,,
+degree,non-graph baseline,lat/lon,geo_distance(-km),0.8969,0.8688,0.8359,0.888,0.919,,,0.0038,0.0086,0.0032,0.037,0.0064,,
+degree,supervised ML,matched: feats G_inner,HistGradBoost(structural),0.9095,0.8868,0.8398,0.936,0.9248,0.7078,0.9697,0.0048,0.0114,0.012,0.027,0.0256,0.0162,0.0052
+degree,supervised ML,matched: feats G_inner,LogReg(structural),0.9111,0.9001,0.8312,0.974,0.9534,0.7212,0.9641,0.0057,0.0071,0.0077,0.0152,0.0059,0.011,0.004
+degree,supervised ML,matched: feats G_inner,RandomForest(structural),0.9121,0.8835,0.8487,0.92,0.9132,0.7135,0.9693,0.0078,0.0143,0.01,0.0235,0.0222,0.0219,0.0052
+degree,supervised ML,shifted: feats G_train,HistGradBoost(structural),0.909,0.8805,0.8421,0.94,0.9106,0.675,0.9842,0.01,0.0207,0.0167,0.0141,0.0398,0.0208,0.0027
+degree,supervised ML,shifted: feats G_train,LogReg(structural),0.9162,0.9035,0.8375,0.972,0.9534,0.6812,0.9818,0.0063,0.0071,0.0102,0.013,0.0083,0.0142,0.0026
+degree,supervised ML,shifted: feats G_train,RandomForest(structural),0.9121,0.8756,0.8479,0.914,0.8976,0.6877,0.9839,0.0098,0.0141,0.0167,0.0207,0.0156,0.025,0.0027
+uniform,heuristic,G_train,adamic_adar,0.9899,0.9898,0.9711,1.0,0.9996,,,0.0007,0.0007,0.0013,0.0,0.0009,,
+uniform,heuristic,G_train,common_neighbours,0.9893,0.9882,0.9679,1.0,0.9994,,,0.0006,0.0007,0.0022,0.0,0.0009,,
+uniform,heuristic,G_train,jaccard,0.9785,0.9601,0.9623,0.896,0.9752,,,0.0009,0.0049,0.0031,0.0498,0.0041,,
+uniform,heuristic,G_train,pref_attachment,0.9779,0.9764,0.9271,0.996,0.9954,,,0.0011,0.0015,0.0015,0.0055,0.0011,,
+uniform,heuristic,G_train,resource_allocation,0.9898,0.9895,0.9711,1.0,0.9988,,,0.0008,0.0008,0.0015,0.0,0.0013,,
+uniform,non-graph baseline,lat/lon,geo_distance(-km),0.9044,0.8913,0.8318,0.926,0.9394,,,0.0024,0.0043,0.0041,0.0378,0.0049,,
+uniform,supervised ML,matched: feats G_inner,HistGradBoost(structural),0.9934,0.9934,0.9667,1.0,0.9992,0.9629,0.9697,0.0006,0.0006,0.0021,0.0,0.0004,0.0024,0.0052
+uniform,supervised ML,matched: feats G_inner,LogReg(structural),0.9942,0.9942,0.9677,1.0,0.9998,0.9709,0.9641,0.0006,0.0007,0.0012,0.0,0.0004,0.004,0.004
+uniform,supervised ML,matched: feats G_inner,RandomForest(structural),0.9935,0.993,0.9676,0.998,0.9988,0.9662,0.9693,0.0007,0.0011,0.0006,0.0045,0.0008,0.004,0.0052
+uniform,supervised ML,shifted: feats G_train,HistGradBoost(structural),0.9945,0.9943,0.9697,1.0,0.999,0.9488,0.9842,0.0007,0.0009,0.0009,0.0,0.0007,0.003,0.0027
+uniform,supervised ML,shifted: feats G_train,LogReg(structural),0.9953,0.9952,0.9717,1.0,0.9998,0.9604,0.9818,0.0006,0.0008,0.0013,0.0,0.0004,0.004,0.0026
+uniform,supervised ML,shifted: feats G_train,RandomForest(structural),0.9944,0.9933,0.972,1.0,0.9972,0.9585,0.9839,0.0007,0.0014,0.0017,0.0,0.0016,0.0051,0.0027

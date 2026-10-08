@@ -1,0 +1,9 @@
+model,seed_set,p_at_5pct,meanfield_pc
+fixed,random,0.05,0.014433362267014341
+fixed,top PageRank,0.03,0.014433362267014341
+fixed,top betweenness,0.03,0.014433362267014341
+fixed,top degree,0.03,0.014433362267014341
+weighted,random,0.03,0.014433362267014341
+weighted,top PageRank,0.02,0.014433362267014341
+weighted,top betweenness,0.02,0.014433362267014341
+weighted,top degree,0.02,0.014433362267014341

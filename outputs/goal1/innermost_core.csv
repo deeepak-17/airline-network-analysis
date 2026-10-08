@@ -1,0 +1,94 @@
+iata,name,country,deg_und,betweenness
+AMS,Amsterdam Airport Schiphol,Netherlands,248,0.04265777892785808
+FRA,Frankfurt am Main Airport,Germany,244,0.050999877320783545
+CDG,Charles de Gaulle International Airport,France,240,0.06170332586928531
+IST,Istanbul Airport,Turkey,236,0.041219471949932335
+MUC,Munich Airport,Germany,192,0.015418009098573025
+DME,Domodedovo International Airport,Russia,190,0.029417301857640656
+DXB,Dubai International Airport,United Arab Emirates,188,0.05935046022271049
+LHR,London Heathrow Airport,United Kingdom,172,0.038385283240397396
+LGW,London Gatwick Airport,United Kingdom,165,0.0100196624788392
+BCN,Barcelona International Airport,Spain,163,0.010295841255611188
+JFK,John F Kennedy International Airport,United States,162,0.025764092907781193
+FCO,Leonardo da Vinci–Fiumicino Airport,Italy,162,0.012167717881638365
+MAD,Adolfo Suárez Madrid–Barajas Airport,Spain,159,0.022658806969032805
+STN,London Stansted Airport,United Kingdom,153,0.004724889530787915
+BRU,Brussels Airport,Belgium,153,0.007807362273907179
+MAN,Manchester Airport,United Kingdom,148,0.006885984812043422
+DUS,Düsseldorf Airport,Germany,147,0.0055107714457495885
+DUB,Dublin Airport,Ireland,144,0.007176485558631642
+SVO,Sheremetyevo International Airport,Russia,144,0.01744827774989519
+VIE,Vienna International Airport,Austria,139,0.0046101617476447514
+ZRH,Zürich Airport,Switzerland,137,0.007802368471592703
+PMI,Palma De Mallorca Airport,Spain,127,0.0036665892420411506
+ARN,Stockholm-Arlanda Airport,Sweden,124,0.01885802414054572
+ORY,Paris-Orly Airport,France,123,0.009680402900926482
+CPH,Copenhagen Kastrup Airport,Denmark,122,0.02661200134592673
+DOH,Hamad International Airport,Qatar,118,0.017418566441577854
+AGP,Málaga Airport,Spain,117,0.002392533715102764
+LED,Pulkovo Airport,Russia,113,0.007823559341998857
+MXP,Malpensa International Airport,Italy,113,0.003841724621184967
+TXL,Berlin-Tegel Airport,Germany,110,0.002683499068521103
+OSL,Oslo Lufthavn,Norway,105,0.014110864110220295
+ATH,Eleftherios Venizelos International Airport,Greece,104,0.010587454719355651
+LIS,Humberto Delgado Airport (Lisbon Portela Airport),Portugal,103,0.014139165687029581
+GVA,Geneva Cointrin International Airport,Switzerland,101,0.001529700640680086
+SAW,Sabiha Gökçen International Airport,Turkey,98,0.003656239132225288
+ALC,Alicante International Airport,Spain,96,0.0021673383748421946
+PRG,Václav Havel Airport Prague,Czech Republic,94,0.0013889452548522425
+CMN,Mohammed V International Airport,Morocco,93,0.007065659452106193
+CGN,Cologne Bonn Airport,Germany,93,0.0006040982047479187
+NCE,Nice-Côte d'Azur Airport,France,90,0.002477220412180374
+HEL,Helsinki Vantaa Airport,Finland,89,0.011462522122787963
+EDI,Edinburgh Airport,United Kingdom,89,0.002987596873881433
+HAM,Hamburg Airport,Germany,87,0.0006296081870778645
+MRS,Marseille Provence Airport,France,86,0.0034771907799616936
+LTN,London Luton Airport,United Kingdom,85,0.002049325897793
+TFS,Tenerife South Airport,Spain,85,0.0009632486144347457
+CRL,Brussels South Charleroi Airport,Belgium,83,0.0005358577416425628
+LPA,Gran Canaria Airport,Spain,83,0.0021303876691350326
+STR,Stuttgart Airport,Germany,81,0.0005262434934929195
+BHX,Birmingham International Airport,United Kingdom,81,0.0012687819794044357
+BGY,Il Caravaggio International Airport,Italy,80,0.0018727099834033977
+TLV,Ben Gurion International Airport,Israel,79,0.0041232196851875
+LYS,Lyon Saint-Exupéry Airport,France,78,0.0027916163553039232
+WAW,Warsaw Chopin Airport,Poland,78,0.00209706822641163
+BUD,Budapest Liszt Ferenc International Airport,Hungary,77,0.0006202430294824235
+MLA,Malta International Airport,Malta,77,0.0007854058895574871
+VCE,Venice Marco Polo Airport,Italy,73,0.0015498458429412001
+BRS,Bristol Airport,United Kingdom,73,0.0006933649438520259
+SXF,Berlin-Schönefeld Airport,Germany,69,0.00027603920177730147
+OTP,Henri Coandă International Airport,Romania,68,0.002971231559226054
+RIX,Riga International Airport,Latvia,68,0.0005602276472914207
+BSL,EuroAirport Basel-Mulhouse-Freiburg Airport,France,66,0.00019916212079880842
+PSA,Pisa International Airport,Italy,65,0.0004967091321003082
+AYT,Antalya International Airport,Turkey,65,0.0009019105848712429
+FAO,Faro Airport,Portugal,64,0.0006508113733054428
+BLQ,Bologna Guglielmo Marconi Airport,Italy,64,0.00028453032838912504
+EIN,Eindhoven Airport,Netherlands,63,0.0003137269190236656
+GLA,Glasgow International Airport,United Kingdom,63,0.005735324067036724
+KBP,Boryspil International Airport,Ukraine,62,0.001219254777480406
+HER,Heraklion International Nikos Kazantzakis Airport,Greece,62,0.00044199329319525964
+TUN,Tunis Carthage International Airport,Tunisia,61,0.0030952385182312346
+OPO,Francisco de Sá Carneiro Airport,Portugal,61,0.0023014305302111217
+IBZ,Ibiza Airport,Spain,59,0.00013991645621731015
+VLC,Valencia Airport,Spain,57,0.0002755348460789444
+ACE,Lanzarote Airport,Spain,57,0.0002007903066317438
+NTE,Nantes Atlantique Airport,France,56,0.0002319132234739105
+LUX,Luxembourg-Findel International Airport,Luxembourg,56,0.0003309408262947511
+FUE,Fuerteventura Airport,Spain,55,0.0001879202025937313
+SKG,Thessaloniki Macedonia International Airport,Greece,55,0.0006234992159663426
+LCA,Larnaca International Airport,Cyprus,55,0.0002541512145288001
+KRK,Kraków John Paul II International Airport,Poland,52,0.00016540268707191465
+BEG,Belgrade Nikola Tesla Airport,Serbia,52,0.0005863824190458132
+RHO,Diagoras Airport,Greece,51,0.0010859848304109532
+NAP,Naples International Airport,Italy,51,7.278476834546525e-05
+HAJ,Hannover Airport,Germany,51,5.706042096488991e-05
+LBA,Leeds Bradford Airport,United Kingdom,51,0.00013372459354991367
+CTA,Catania-Fontanarossa Airport,Italy,50,0.000171556366024159
+NCL,Newcastle Airport,United Kingdom,49,0.00018429250009593763
+RAK,Menara Airport,Morocco,49,0.0003946664373938242
+BOD,Bordeaux-Mérignac Airport,France,49,0.00021068284346097987
+TLS,Toulouse-Blagnac Airport,France,47,0.0016484113955964562
+DBV,Dubrovnik Airport,Croatia,42,0.00020510605280674488
+SOF,Sofia Airport,Bulgaria,41,0.00010748256951396204

@@ -1,0 +1,16 @@
+airport,name,country,pagerank_w
+ATL,Hartsfield Jackson Atlanta International Airport,United States,0.009311709812802927
+ORD,Chicago O'Hare International Airport,United States,0.00586140094459525
+LAX,Los Angeles International Airport,United States,0.005653671632006115
+DFW,Dallas Fort Worth International Airport,United States,0.005375126666781624
+CDG,Charles de Gaulle International Airport,France,0.004942786136101074
+LHR,London Heathrow Airport,United Kingdom,0.004941810120866611
+SIN,Singapore Changi Airport,Singapore,0.004816278567260548
+PEK,Beijing Capital International Airport,China,0.004810895481564101
+DEN,Denver International Airport,United States,0.004754413798124038
+FRA,Frankfurt am Main Airport,Germany,0.004516241718921441
+JFK,John F Kennedy International Airport,United States,0.00445462975697954
+DME,Domodedovo International Airport,Russia,0.0043787198510294835
+AMS,Amsterdam Airport Schiphol,Netherlands,0.004153071461718993
+MIA,Miami International Airport,United States,0.004109907473494639
+IST,Istanbul Airport,Turkey,0.004106518222865573

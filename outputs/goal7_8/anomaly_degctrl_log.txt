@@ -1,0 +1,16 @@
+iata                                     name         country  degree  betweenness  pagerank  clustering  core  avg_nbr_deg  iso_deg_controlled  res_lb  res_lp  res_cl  res_lnd  res_core
+ BET                           Bethel Airport   United States      29   106381.117     0.002       0.044     3        3.759               0.695   1.825   0.606  -0.396   -1.255   -14.278
+ GEA                   Nouméa Magenta Airport   New Caledonia       9       32.500     0.001       0.083     2        1.667               0.683  -0.433   0.632  -0.511   -1.481    -6.367
+ AGM                                      NaN             NaN       5    13574.000     0.001       0.000     1        1.800               0.670   2.788   0.564  -0.662   -1.324    -4.057
+ PAC Marcos A. Gelabert International Airport          Panama      15    44052.500     0.001       0.057     2        2.000               0.670   2.147   0.450  -0.473   -1.477    -9.877
+ FAI          Fairbanks International Airport   United States      24    89886.418     0.002       0.058     3        8.167               0.670   1.955   0.574  -0.409   -0.908   -12.627
+ DUT                         Unalaska Airport   United States       3        3.000     0.001       0.000     1        1.000               0.670  -0.216   0.612  -0.715   -1.440    -1.813
+ WIL                   Nairobi Wilson Airport           Kenya      11    24143.060     0.001       0.055     2        2.909               0.670   2.214   0.538  -0.515   -1.272    -7.676
+ JUV                        Upernavik Airport       Greenland       9    37281.000     0.001       0.083     2        2.333               0.668   2.614   0.565  -0.511   -1.335    -6.367
+ UMD                       Uummannaq Heliport       Greenland       7    20353.000     0.001       0.095     2        1.714               0.662   2.614   0.563  -0.529   -1.421    -4.856
+ YEV                Inuvik Mike Zubko Airport          Canada       7    11881.333     0.001       0.095     2        2.000               0.656   2.380   0.525  -0.529   -1.354    -4.856
+ HIR            Honiara International Airport Solomon Islands      21    57679.479     0.001       0.086     4        8.762               0.652   1.906   0.514  -0.400   -0.868   -10.511
+ OTZ              Ralph Wien Memorial Airport   United States      14    40645.833     0.001       0.099     3        5.643               0.651   2.185   0.538  -0.440   -1.018    -8.369
+ OME                             Nome Airport   United States      16    38998.550     0.001       0.117     3        5.625               0.649   2.026   0.505  -0.405   -1.035    -9.363
+ AEP                    Jorge Newbery Airpark       Argentina      44    81767.684     0.002       0.058     8        9.318               0.648   1.260   0.457  -0.321   -0.869   -13.199
+ AKN                      King Salmon Airport   United States      10    37280.500     0.001       0.067     2        5.200               0.648   2.503   0.515  -0.515   -1.005    -7.043

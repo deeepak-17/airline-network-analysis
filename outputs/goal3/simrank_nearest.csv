@@ -1,0 +1,49 @@
+query,airport,name,country,simrank,in_deg
+DEL,SXR,Sheikh ul Alam Airport,India,0.04277226257425933,6
+DEL,IXL,Leh Kushok Bakula Rimpochee Airport,India,0.03836043231219638,3
+DEL,IXJ,Jammu Airport,India,0.03369918126705634,4
+DEL,BOM,Chhatrapati Shivaji International Airport,India,0.032813236824127304,82
+DEL,IXZ,Vir Savarkar International Airport,India,0.03270925538126332,3
+DEL,PAT,Lok Nayak Jayaprakash Airport,India,0.030810619270664898,5
+DEL,IDR,Devi Ahilyabai Holkar Airport,India,0.030609844087012388,7
+DEL,IXR,Birsa Munda Airport,India,0.030029759269154296,3
+BOM,IXL,Leh Kushok Bakula Rimpochee Airport,India,0.04619937252789526,3
+BOM,SXR,Sheikh ul Alam Airport,India,0.04400729254122523,6
+BOM,IXZ,Vir Savarkar International Airport,India,0.03727101130000464,3
+BOM,IDR,Devi Ahilyabai Holkar Airport,India,0.03474510528281906,7
+BOM,IXR,Birsa Munda Airport,India,0.033683128683135485,3
+BOM,RPR,Raipur Airport,India,0.03358976463696482,6
+BOM,DEL,Indira Gandhi International Airport,India,0.032813236824127304,97
+BOM,IXJ,Jammu Airport,India,0.03196470220804573,4
+JFK,MHH,Leonard M Thompson International Airport,Bahamas,0.016916179411542224,6
+JFK,AXA,Clayton J Lloyd International Airport,Anguilla,0.016882823577911585,4
+JFK,ECP,Northwest Florida Beaches International Airport,United States,0.016769964646985103,5
+JFK,ELH,North Eleuthera Airport,Bahamas,0.0164774617522688,4
+JFK,ERI,Erie International Tom Ridge Field,United States,0.016086620448126417,3
+JFK,GHB,Governor's Harbour Airport,Bahamas,0.016084138411456624,3
+JFK,TTN,Trenton Mercer Airport,United States,0.016059418342096246,14
+JFK,LGA,La Guardia Airport,United States,0.01600968509859079,69
+LHR,SCN,Saarbrücken Airport,Germany,0.0126933004658186,4
+LHR,KLU,Klagenfurt Airport,Austria,0.01262337180475861,4
+LHR,ETZ,Metz-Nancy-Lorraine Airport,France,0.01259924453420084,5
+LHR,KVA,Alexander the Great International Airport,Greece,0.01245680431081288,5
+LHR,GWT,Westerland Sylt Airport,Germany,0.012415463514448048,7
+LHR,RMF,Marsa Alam International Airport,Egypt,0.012335504548321271,4
+LHR,BJA,Soummam Airport,Algeria,0.012186599028269282,4
+LHR,BLJ,Batna Airport,Algeria,0.012186599028269282,4
+ATL,PIE,St Petersburg Clearwater International Airport,United States,0.030379054745445076,31
+ATL,PGD,Charlotte County Airport,United States,0.029074389534649976,17
+ATL,SFB,Orlando Sanford International Airport,United States,0.029054775118831578,48
+ATL,CLT,Charlotte Douglas International Airport,United States,0.02794582359356384,139
+ATL,DCA,Ronald Reagan Washington National Airport,United States,0.026925289533499867,89
+ATL,DFW,Dallas Fort Worth International Airport,United States,0.026215794025043596,185
+ATL,LGA,La Guardia Airport,United States,0.026093776584882093,69
+ATL,DTW,Detroit Metropolitan Wayne County Airport,United States,0.025625702894755898,134
+BLR,IXZ,Vir Savarkar International Airport,India,0.04598268690958196,3
+BLR,RPR,Raipur Airport,India,0.043847897873381184,6
+BLR,PNQ,Pune Airport,India,0.039957333792617,13
+BLR,HYD,Rajiv Gandhi International Airport,India,0.039088801316793,32
+BLR,IXM,Madurai Airport,India,0.03871857245876048,3
+BLR,NAG,Dr. Babasaheb Ambedkar International Airport,India,0.038421394110819615,7
+BLR,IDR,Devi Ahilyabai Holkar Airport,India,0.03826025526314575,7
+BLR,BBI,Biju Patnaik Airport,India,0.037309181152944265,6

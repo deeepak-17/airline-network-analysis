@@ -1,0 +1,69 @@
+negatives,kind,regime,method,auc,ap,p@npos,p@100,p@1000,precision@0.5,recall@0.5,n_runs,goal
+degree,embedding + structural ML,hybrid@G_inner,PPMI-SVD(ablation): LR hadamard+structural,0.9583,0.945,0.9003,0.97,0.9757,0.7652,0.9885,3,6
+degree,embedding + ML,clf@G_inner clean,node2vec-SGNS: LR l1,0.9484,0.9325,0.8837,0.9667,0.9583,0.7932,0.9745,3,6
+degree,embedding + ML,clf@G_train naive (seen-edge bias),node2vec-SGNS: LR l1,0.9481,0.9333,0.8834,0.9667,0.9597,0.8673,0.9087,3,6
+degree,embedding + ML,clf@G_train naive (seen-edge bias),node2vec-SGNS: RF hadamard,0.945,0.9275,0.8813,0.9767,0.9507,0.8841,0.8727,3,6
+degree,embedding + structural ML,hybrid@G_inner,node2vec-SGNS: LR hadamard+structural,0.9402,0.9233,0.8703,0.9433,0.9593,0.7533,0.9815,3,6
+degree,heuristic,G_train,resource_allocation,0.9393551547716792,0.9254625319606588,0.8729224376731302,0.95,0.963,,,1,5
+degree,embedding + ML,clf@G_train naive (seen-edge bias),PPMI-SVD(ablation): RF hadamard,0.9368,0.9227,0.8757,0.9867,0.953,0.8694,0.8876,3,6
+degree,embedding (unsupervised),cosine@G_train,PPMI-SVD(ablation): cosine,0.9334,0.9233,0.8755,0.9833,0.9537,,,3,6
+degree,embedding + ML,clf@G_inner clean,node2vec-SGNS: RF hadamard,0.9329,0.9087,0.8635,0.94,0.9377,0.8134,0.9447,3,6
+degree,heuristic,G_train,jaccard,0.93086440165054,0.9144507475830188,0.8625346260387812,0.97,0.948,,,1,5
+degree,embedding + ML,clf@G_train naive (seen-edge bias),PPMI-SVD(ablation): LR hadamard,0.9289,0.9197,0.8688,0.9933,0.9567,0.885,0.825,3,6
+degree,embedding (unsupervised),cosine@G_inner,PPMI-SVD(ablation): cosine,0.9286,0.9202,0.8745,0.98,0.9547,,,3,6
+degree,heuristic,G_train,adamic_adar,0.9257605978698752,0.9098223537178556,0.8549168975069252,0.96,0.953,,,1,5
+degree,embedding + ML,clf@G_inner clean,PPMI-SVD(ablation): LR hadamard,0.9238,0.9053,0.8658,0.9833,0.9353,0.8582,0.879,3,6
+degree,supervised ML,shifted: feats G_train,LogReg(structural),0.9233233467745028,0.9108225130747056,0.8511080332409973,0.95,0.955,0.6823444283646889,0.9795706371191136,1,5
+degree,supervised ML,shifted: feats G_train,HistGradBoost(structural),0.9226766263687356,0.8959883491522288,0.8670360110803325,0.95,0.913,0.6706827309236948,0.98303324099723,1,5
+degree,supervised ML,shifted: feats G_train,RandomForest(structural),0.9184712052355336,0.8839182247574683,0.8611495844875346,0.91,0.9,0.6845410628019324,0.9813019390581718,1,5
+degree,supervised ML,matched: feats G_inner,LogReg(structural),0.91821073061901,0.9077085027801052,0.8431440443213296,0.95,0.956,0.7329110583267353,0.9615650969529086,1,5
+degree,supervised ML,matched: feats G_inner,HistGradBoost(structural),0.915727139620629,0.8929324980654159,0.8587257617728532,0.91,0.925,0.7060314242270653,0.9646814404432132,1,5
+degree,heuristic,G_train,common_neighbours,0.9156797206513148,0.8951835549344745,0.8396814404432132,0.97,0.946,,,1,5
+degree,supervised ML,matched: feats G_inner,RandomForest(structural),0.9156624555904268,0.8878921138027897,0.8642659279778393,0.91,0.905,0.7116956077630235,0.965027700831025,1,5
+degree,embedding (unsupervised),cosine@G_train,node2vec-SGNS: cosine,0.9145,0.9091,0.8527,0.9733,0.9573,,,3,6
+degree,embedding + ML,clf@G_inner clean,PPMI-SVD(ablation): RF hadamard,0.9128,0.89,0.8565,0.95,0.9213,0.8086,0.8983,3,6
+degree,embedding (unsupervised),cosine@G_inner,node2vec-SGNS: cosine,0.9097,0.905,0.8445,0.9767,0.951,,,3,6
+degree,embedding + ML,clf@G_train naive (seen-edge bias),PPMI-SVD(ablation): LR l1,0.9097,0.9028,0.8493,0.9867,0.9413,0.8802,0.7934,3,6
+degree,embedding + ML,clf@G_inner clean,PPMI-SVD(ablation): LR l1,0.9042,0.8968,0.8466,0.98,0.94,0.8504,0.8398,3,6
+degree,non-graph baseline,lat/lon,geo_distance(-km),0.8986668015899202,0.8757665951823438,0.8393351800554016,0.9,0.926,,,1,5
+degree,embedding + ML,clf@G_train naive (seen-edge bias),node2vec-SGNS: LR hadamard,0.8737,0.8378,0.7977,0.9033,0.8733,0.8086,0.7702,3,6
+degree,embedding + ML,clf@G_inner clean,node2vec-SGNS: LR hadamard,0.8659,0.8308,0.7907,0.9,0.872,0.7371,0.9065,3,6
+degree,heuristic,G_train,pref_attachment,0.7077806315751106,0.6754594025297109,0.650623268698061,0.86,0.714,,,1,5
+degree,embedding + ML,clf@G_inner clean,node2vec-SGNS: LR average,0.707,0.6861,0.6406,0.8967,0.73,0.5805,0.922,3,6
+degree,embedding + ML,clf@G_inner clean,PPMI-SVD(ablation): LR average,0.6939,0.6365,0.6457,0.57,0.6727,0.5811,0.8943,3,6
+degree,embedding + ML,clf@G_train naive (seen-edge bias),node2vec-SGNS: LR average,0.6857,0.6667,0.6282,0.8733,0.7167,0.5494,0.9492,3,6
+degree,embedding + ML,clf@G_train naive (seen-edge bias),PPMI-SVD(ablation): LR average,0.6847,0.6354,0.6372,0.5833,0.68,0.5541,0.9294,3,6
+uniform,embedding + structural ML,hybrid@G_inner,node2vec-SGNS: LR hadamard+structural,0.9965,0.9961,0.9767,1.0,0.9997,0.9731,0.9815,3,6
+uniform,embedding + structural ML,hybrid@G_inner,PPMI-SVD(ablation): LR hadamard+structural,0.9963,0.9953,0.9816,1.0,0.9973,0.9757,0.9885,3,6
+uniform,supervised ML,shifted: feats G_train,LogReg(structural),0.9957638254770912,0.995825088735379,0.9729916897506924,1.0,1.0,0.9615907545887152,0.9795706371191136,1,5
+uniform,supervised ML,shifted: feats G_train,HistGradBoost(structural),0.9949289878453972,0.995152460204702,0.9709141274238228,1.0,0.999,0.9479131886477462,0.98303324099723,1,5
+uniform,supervised ML,shifted: feats G_train,RandomForest(structural),0.9947616726199154,0.9940469393148958,0.9747229916897509,1.0,0.998,0.9623089983022072,0.9813019390581718,1,5
+uniform,supervised ML,matched: feats G_inner,LogReg(structural),0.9946766062261644,0.9948272523906708,0.9671052631578948,1.0,1.0,0.9757554462403372,0.9615650969529086,1,5
+uniform,supervised ML,matched: feats G_inner,RandomForest(structural),0.9935852505544004,0.993406564385192,0.9681440443213296,1.0,0.999,0.9710801393728224,0.965027700831025,1,5
+uniform,supervised ML,matched: feats G_inner,HistGradBoost(structural),0.9933116472978262,0.993532307523336,0.9646814404432132,1.0,0.999,0.9646814404432132,0.9646814404432132,1,5
+uniform,embedding + ML,clf@G_train naive (seen-edge bias),node2vec-SGNS: LR l1,0.9919,0.9894,0.965,1.0,0.9953,0.9767,0.9087,3,6
+uniform,heuristic,G_train,adamic_adar,0.9896627845857536,0.9896833696838035,0.9722991689750692,1.0,1.0,,,1,5
+uniform,heuristic,G_train,resource_allocation,0.9895552376439716,0.9896366604316328,0.9719529085872576,1.0,1.0,,,1,5
+uniform,embedding + ML,clf@G_inner clean,node2vec-SGNS: LR l1,0.9892,0.9854,0.9617,1.0,0.991,0.9531,0.9745,3,6
+uniform,heuristic,G_train,common_neighbours,0.9891342818885674,0.9882400282217244,0.9702216066481996,1.0,0.999,,,1,5
+uniform,embedding + ML,clf@G_train naive (seen-edge bias),node2vec-SGNS: RF hadamard,0.9863,0.983,0.9497,1.0,0.9937,0.9699,0.8727,3,6
+uniform,embedding + ML,clf@G_inner clean,node2vec-SGNS: RF hadamard,0.9844,0.981,0.9443,1.0,0.9907,0.9427,0.9447,3,6
+uniform,heuristic,G_train,pref_attachment,0.9790361396091192,0.9785721828560324,0.9283240997229916,1.0,0.997,,,1,5
+uniform,heuristic,G_train,jaccard,0.9786409615487912,0.9649692530376884,0.965027700831025,0.94,0.976,,,1,5
+uniform,embedding + ML,clf@G_train naive (seen-edge bias),PPMI-SVD(ablation): RF hadamard,0.9756,0.9695,0.9274,1.0,0.9853,0.9438,0.8876,3,6
+uniform,embedding + ML,clf@G_inner clean,PPMI-SVD(ablation): RF hadamard,0.9663,0.959,0.9044,0.99,0.9787,0.9088,0.8983,3,6
+uniform,embedding + ML,clf@G_inner clean,PPMI-SVD(ablation): LR hadamard,0.956,0.945,0.8995,0.9933,0.9603,0.9172,0.879,3,6
+uniform,embedding + ML,clf@G_train naive (seen-edge bias),PPMI-SVD(ablation): LR hadamard,0.9542,0.945,0.9,0.98,0.972,0.9325,0.825,3,6
+uniform,embedding + ML,clf@G_inner clean,node2vec-SGNS: LR average,0.9515,0.9512,0.8885,1.0,0.988,0.8598,0.922,3,6
+uniform,embedding + ML,clf@G_train naive (seen-edge bias),node2vec-SGNS: LR average,0.943,0.9404,0.8738,0.9967,0.9793,0.7984,0.9492,3,6
+uniform,embedding (unsupervised),cosine@G_train,PPMI-SVD(ablation): cosine,0.9404,0.9297,0.8922,0.96,0.958,,,3,6
+uniform,embedding (unsupervised),cosine@G_inner,PPMI-SVD(ablation): cosine,0.9365,0.9259,0.8927,0.9467,0.9587,,,3,6
+uniform,embedding + ML,clf@G_train naive (seen-edge bias),PPMI-SVD(ablation): LR l1,0.9251,0.9204,0.8571,0.98,0.9633,0.9009,0.7934,3,6
+uniform,embedding + ML,clf@G_inner clean,PPMI-SVD(ablation): LR average,0.9192,0.905,0.8521,0.9667,0.9433,0.8128,0.8943,3,6
+uniform,embedding (unsupervised),cosine@G_train,node2vec-SGNS: cosine,0.9182,0.9119,0.8599,0.95,0.9547,,,3,6
+uniform,embedding + ML,clf@G_inner clean,PPMI-SVD(ablation): LR l1,0.9156,0.9134,0.8487,0.98,0.9597,0.8554,0.8398,3,6
+uniform,embedding + ML,clf@G_train naive (seen-edge bias),PPMI-SVD(ablation): LR average,0.9142,0.8961,0.8474,0.9333,0.9417,0.7577,0.9294,3,6
+uniform,embedding (unsupervised),cosine@G_inner,node2vec-SGNS: cosine,0.908,0.8997,0.8494,0.9333,0.9427,,,3,6
+uniform,non-graph baseline,lat/lon,geo_distance(-km),0.9054764893033356,0.8966493085116471,0.8331024930747922,0.95,0.948,,,1,5
+uniform,embedding + ML,clf@G_inner clean,node2vec-SGNS: LR hadamard,0.9053,0.8481,0.8428,0.7933,0.8753,0.8195,0.9065,3,6
+uniform,embedding + ML,clf@G_train naive (seen-edge bias),node2vec-SGNS: LR hadamard,0.8878,0.8245,0.8194,0.77,0.8397,0.8287,0.7702,3,6

@@ -1,0 +1,68 @@
+EMPIRICAL {'n': 3425, 'm': 19256, 'mean_deg': np.float64(11.244379562043795), 'max_deg': np.int64(248), 'transitivity': 0.24830297528765316, 'avg_clustering': 0.48709335661295583, 'lcc_frac': 0.9918248175182481, 'avg_path': 4.103241167898093, 'assortativity': -0.006455523457166176}
+ER p=3.284e-03; BA m=6 (edges 20514 vs 19256); WS k=12
+       p  transitivity   avg_path
+0  0.001      0.679906  35.469213
+1  0.003      0.675554  16.654791
+2  0.010      0.660459   9.527799
+3  0.030      0.619953   6.541650
+4  0.100      0.490866   4.834406
+5  0.200      0.342225   4.230189
+6  0.300      0.229314   3.950432
+7  0.500      0.084549   3.687339
+8  0.800      0.008391   3.575822
+9  1.000      0.003138   3.569185
+WS p chosen (matches transitivity): 0.3
+                        EMPIRICAL            BA            ER            WS
+m_mean               19256.000000  20514.000000  19250.800000  20550.000000
+mean_deg_mean           11.244380     11.978978     11.241343     12.000000
+max_deg_mean           248.000000    251.000000     25.400000     19.300000
+transitivity_mean        0.248303      0.013959      0.003335      0.229577
+avg_clustering_mean      0.487093      0.017996      0.003322      0.237755
+lcc_frac_mean            0.991825      1.000000      1.000000      1.000000
+avg_path_mean            4.103241      3.191493      3.633192      3.952697
+assortativity_mean      -0.006456     -0.032819      0.001045     -0.020037
+m_std                         NaN      0.000000    173.145924      0.000000
+mean_deg_std                  NaN      0.000000      0.101107      0.000000
+max_deg_std                   NaN     38.177946      1.173788      0.674949
+transitivity_std              NaN      0.000475      0.000222      0.003153
+avg_clustering_std            NaN      0.001325      0.000233      0.003262
+lcc_frac_std                  NaN      0.000000      0.000000      0.000000
+avg_path_std                  NaN      0.015671      0.010342      0.007710
+assortativity_std             NaN      0.004978      0.006059      0.006119
+KS_deg_mean                   NaN      0.677080      0.644438      0.744000
+KS_deg_std                    NaN      0.000000      0.004108      0.002114
+PL fit {'xmin': np.float64(2.0), 'alpha': np.float64(1.7382349479703336), 'KS_D': np.float64(0.03174809957336011), 'n_tail': 2657, 'n': 3425}
+                     A  ... significant
+0            power_law  ...        True
+1            power_law  ...        True
+2            power_law  ...        True
+3            power_law  ...        True
+4  truncated_power_law  ...        True
+5  truncated_power_law  ...        True
+6  truncated_power_law  ...        True
+7            lognormal  ...        True
+8            lognormal  ...        True
+9          exponential  ...        True
+
+[10 rows x 6 columns]
+{'power_law_alpha': np.float64(1.7382349479703336), 'tpl_alpha': np.float64(1.5357609425155911), 'tpl_lambda': np.float64(0.005927824527485682), 'lognormal_mu': np.float64(-1.8973212807780238), 'lognormal_sigma': np.float64(2.5352028599464873), 'exp_lambda': np.float64(0.07875473585205596)} {'power_law': np.float64(0.03174809957336011), 'truncated_power_law': np.float64(0.06847294672493659), 'lognormal': np.float64(0.06944078615739085), 'exponential': np.float64(0.313516111058821), 'stretched_exponential': np.float64(0.07347963475525432)}
+    xmin  n_tail     alpha                   vs  R_pl_minus             p
+0      1    3425  1.529818  truncated_power_law  -17.615306  0.000000e+00
+1      1    3425  1.529818            lognormal  -16.582463  9.332372e-62
+2      1    3425  1.529818          exponential   12.809581  1.449156e-37
+3      2    2657  1.738235  truncated_power_law   -9.409922  0.000000e+00
+4      2    2657  1.738235            lognormal   -6.395506  1.600170e-10
+5      2    2657  1.738235          exponential   17.494872  1.567643e-68
+6      3    1913  1.769869  truncated_power_law   -8.641725  0.000000e+00
+7      3    1913  1.769869            lognormal   -5.960303  2.517711e-09
+8      3    1913  1.769869          exponential   12.521317  5.708002e-36
+9      5    1269  1.804526  truncated_power_law   -8.347791  0.000000e+00
+10     5    1269  1.804526            lognormal   -6.427860  1.294126e-10
+11     5    1269  1.804526          exponential    5.704061  1.169859e-08
+12    10     749  1.896244  truncated_power_law   -7.785779  0.000000e+00
+13    10     749  1.896244            lognormal   -6.628823  3.383739e-11
+14    10     749  1.896244          exponential   -1.251788  2.106470e-01
+15    20     461  2.139764  truncated_power_law   -6.009143  0.000000e+00
+16    20     461  2.139764            lognormal   -5.266424  1.391064e-07
+17    20     461  2.139764          exponential   -3.219487  1.284202e-03
+done

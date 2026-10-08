@@ -1,0 +1,16 @@
+airport,name,country,in_deg,out_deg,pagerank
+ATL,Hartsfield Jackson Atlanta International Airport,United States,216,217,0.004679774644618856
+IST,Istanbul Airport,Turkey,230,227,0.004412722838437625
+ORD,Chicago O'Hare International Airport,United States,203,206,0.004291272777137045
+DEN,Denver International Airport,United States,168,169,0.004260935440547963
+DFW,Dallas Fort Worth International Airport,United States,185,187,0.004189544835300546
+DME,Domodedovo International Airport,Russia,189,189,0.004134581192429684
+CDG,Charles de Gaulle International Airport,France,233,237,0.00396365052257497
+FRA,Frankfurt am Main Airport,Germany,238,239,0.0038572847987689853
+PEK,Beijing Capital International Airport,China,206,206,0.0038296482319495036
+AMS,Amsterdam Airport Schiphol,Netherlands,231,232,0.0036586332817656994
+DXB,Dubai International Airport,United Arab Emirates,182,188,0.003644993348026004
+IAH,George Bush Intercontinental Houston Airport,United States,168,169,0.0035295642510032752
+LAX,Los Angeles International Airport,United States,148,149,0.0033424849769630493
+SYD,Sydney Kingsford Smith International Airport,Australia,83,85,0.0031254533344087436
+YYZ,Lester B. Pearson International Airport,Canada,146,147,0.0030311334732859877

@@ -1,0 +1,11 @@
+A,B,R,p,favours,significant
+power_law,truncated_power_law,-9.409922413673298,0.0,truncated_power_law,True
+power_law,lognormal,-6.395505570497652,1.6001700785945076e-10,lognormal,True
+power_law,exponential,17.49487200079479,1.5676427300224342e-68,power_law,True
+power_law,stretched_exponential,-6.675876175243952,2.4575940997370202e-11,stretched_exponential,True
+truncated_power_law,lognormal,10.061008650335404,8.215229648028307e-24,truncated_power_law,True
+truncated_power_law,exponential,20.267722874314572,2.478633726116235e-91,truncated_power_law,True
+truncated_power_law,stretched_exponential,9.641719728506082,5.328765274881682e-22,truncated_power_law,True
+lognormal,exponential,19.74832557440111,8.292186128235175e-87,lognormal,True
+lognormal,stretched_exponential,-7.2200735308351565,5.19594710395639e-13,stretched_exponential,True
+exponential,stretched_exponential,-20.042046167168397,0.0,stretched_exponential,True

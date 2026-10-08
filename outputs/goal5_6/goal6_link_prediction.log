@@ -1,0 +1,74 @@
+
+=== negatives: uniform (Goal-5 rows: split seed 42; Goal-6 rows: mean over 3 embedding seeds) ===
+goal                                     method                             regime      auc       ap   p@npos  p@100  p@1000
+   6      node2vec-SGNS: LR hadamard+structural                     hybrid@G_inner 0.996500 0.996100 0.976700 1.0000  0.9997
+   6 PPMI-SVD(ablation): LR hadamard+structural                     hybrid@G_inner 0.996300 0.995300 0.981600 1.0000  0.9973
+   5                         LogReg(structural)             shifted: feats G_train 0.995764 0.995825 0.972992 1.0000  1.0000
+   5                  HistGradBoost(structural)             shifted: feats G_train 0.994929 0.995152 0.970914 1.0000  0.9990
+   5                   RandomForest(structural)             shifted: feats G_train 0.994762 0.994047 0.974723 1.0000  0.9980
+   5                         LogReg(structural)             matched: feats G_inner 0.994677 0.994827 0.967105 1.0000  1.0000
+   5                   RandomForest(structural)             matched: feats G_inner 0.993585 0.993407 0.968144 1.0000  0.9990
+   5                  HistGradBoost(structural)             matched: feats G_inner 0.993312 0.993532 0.964681 1.0000  0.9990
+   6                       node2vec-SGNS: LR l1 clf@G_train naive (seen-edge bias) 0.991900 0.989400 0.965000 1.0000  0.9953
+   5                                adamic_adar                            G_train 0.989663 0.989683 0.972299 1.0000  1.0000
+   5                        resource_allocation                            G_train 0.989555 0.989637 0.971953 1.0000  1.0000
+   6                       node2vec-SGNS: LR l1                  clf@G_inner clean 0.989200 0.985400 0.961700 1.0000  0.9910
+   5                          common_neighbours                            G_train 0.989134 0.988240 0.970222 1.0000  0.9990
+   6                 node2vec-SGNS: RF hadamard clf@G_train naive (seen-edge bias) 0.986300 0.983000 0.949700 1.0000  0.9937
+   6                 node2vec-SGNS: RF hadamard                  clf@G_inner clean 0.984400 0.981000 0.944300 1.0000  0.9907
+   5                            pref_attachment                            G_train 0.979036 0.978572 0.928324 1.0000  0.9970
+   5                                    jaccard                            G_train 0.978641 0.964969 0.965028 0.9400  0.9760
+   6            PPMI-SVD(ablation): RF hadamard clf@G_train naive (seen-edge bias) 0.975600 0.969500 0.927400 1.0000  0.9853
+   6            PPMI-SVD(ablation): RF hadamard                  clf@G_inner clean 0.966300 0.959000 0.904400 0.9900  0.9787
+   6            PPMI-SVD(ablation): LR hadamard                  clf@G_inner clean 0.956000 0.945000 0.899500 0.9933  0.9603
+   6            PPMI-SVD(ablation): LR hadamard clf@G_train naive (seen-edge bias) 0.954200 0.945000 0.900000 0.9800  0.9720
+   6                  node2vec-SGNS: LR average                  clf@G_inner clean 0.951500 0.951200 0.888500 1.0000  0.9880
+   6                  node2vec-SGNS: LR average clf@G_train naive (seen-edge bias) 0.943000 0.940400 0.873800 0.9967  0.9793
+   6                 PPMI-SVD(ablation): cosine                     cosine@G_train 0.940400 0.929700 0.892200 0.9600  0.9580
+   6                 PPMI-SVD(ablation): cosine                     cosine@G_inner 0.936500 0.925900 0.892700 0.9467  0.9587
+   6                  PPMI-SVD(ablation): LR l1 clf@G_train naive (seen-edge bias) 0.925100 0.920400 0.857100 0.9800  0.9633
+   6             PPMI-SVD(ablation): LR average                  clf@G_inner clean 0.919200 0.905000 0.852100 0.9667  0.9433
+   6                      node2vec-SGNS: cosine                     cosine@G_train 0.918200 0.911900 0.859900 0.9500  0.9547
+   6                  PPMI-SVD(ablation): LR l1                  clf@G_inner clean 0.915600 0.913400 0.848700 0.9800  0.9597
+   6             PPMI-SVD(ablation): LR average clf@G_train naive (seen-edge bias) 0.914200 0.896100 0.847400 0.9333  0.9417
+   6                      node2vec-SGNS: cosine                     cosine@G_inner 0.908000 0.899700 0.849400 0.9333  0.9427
+   5                          geo_distance(-km)                            lat/lon 0.905476 0.896649 0.833102 0.9500  0.9480
+   6                 node2vec-SGNS: LR hadamard                  clf@G_inner clean 0.905300 0.848100 0.842800 0.7933  0.8753
+   6                 node2vec-SGNS: LR hadamard clf@G_train naive (seen-edge bias) 0.887800 0.824500 0.819400 0.7700  0.8397
+
+=== negatives: degree (Goal-5 rows: split seed 42; Goal-6 rows: mean over 3 embedding seeds) ===
+goal                                     method                             regime      auc       ap   p@npos  p@100  p@1000
+   6 PPMI-SVD(ablation): LR hadamard+structural                     hybrid@G_inner 0.958300 0.945000 0.900300 0.9700  0.9757
+   6                       node2vec-SGNS: LR l1                  clf@G_inner clean 0.948400 0.932500 0.883700 0.9667  0.9583
+   6                       node2vec-SGNS: LR l1 clf@G_train naive (seen-edge bias) 0.948100 0.933300 0.883400 0.9667  0.9597
+   6                 node2vec-SGNS: RF hadamard clf@G_train naive (seen-edge bias) 0.945000 0.927500 0.881300 0.9767  0.9507
+   6      node2vec-SGNS: LR hadamard+structural                     hybrid@G_inner 0.940200 0.923300 0.870300 0.9433  0.9593
+   5                        resource_allocation                            G_train 0.939355 0.925463 0.872922 0.9500  0.9630
+   6            PPMI-SVD(ablation): RF hadamard clf@G_train naive (seen-edge bias) 0.936800 0.922700 0.875700 0.9867  0.9530
+   6                 PPMI-SVD(ablation): cosine                     cosine@G_train 0.933400 0.923300 0.875500 0.9833  0.9537
+   6                 node2vec-SGNS: RF hadamard                  clf@G_inner clean 0.932900 0.908700 0.863500 0.9400  0.9377
+   5                                    jaccard                            G_train 0.930864 0.914451 0.862535 0.9700  0.9480
+   6            PPMI-SVD(ablation): LR hadamard clf@G_train naive (seen-edge bias) 0.928900 0.919700 0.868800 0.9933  0.9567
+   6                 PPMI-SVD(ablation): cosine                     cosine@G_inner 0.928600 0.920200 0.874500 0.9800  0.9547
+   5                                adamic_adar                            G_train 0.925761 0.909822 0.854917 0.9600  0.9530
+   6            PPMI-SVD(ablation): LR hadamard                  clf@G_inner clean 0.923800 0.905300 0.865800 0.9833  0.9353
+   5                         LogReg(structural)             shifted: feats G_train 0.923323 0.910823 0.851108 0.9500  0.9550
+   5                  HistGradBoost(structural)             shifted: feats G_train 0.922677 0.895988 0.867036 0.9500  0.9130
+   5                   RandomForest(structural)             shifted: feats G_train 0.918471 0.883918 0.861150 0.9100  0.9000
+   5                         LogReg(structural)             matched: feats G_inner 0.918211 0.907709 0.843144 0.9500  0.9560
+   5                  HistGradBoost(structural)             matched: feats G_inner 0.915727 0.892932 0.858726 0.9100  0.9250
+   5                          common_neighbours                            G_train 0.915680 0.895184 0.839681 0.9700  0.9460
+   5                   RandomForest(structural)             matched: feats G_inner 0.915662 0.887892 0.864266 0.9100  0.9050
+   6                      node2vec-SGNS: cosine                     cosine@G_train 0.914500 0.909100 0.852700 0.9733  0.9573
+   6            PPMI-SVD(ablation): RF hadamard                  clf@G_inner clean 0.912800 0.890000 0.856500 0.9500  0.9213
+   6                      node2vec-SGNS: cosine                     cosine@G_inner 0.909700 0.905000 0.844500 0.9767  0.9510
+   6                  PPMI-SVD(ablation): LR l1 clf@G_train naive (seen-edge bias) 0.909700 0.902800 0.849300 0.9867  0.9413
+   6                  PPMI-SVD(ablation): LR l1                  clf@G_inner clean 0.904200 0.896800 0.846600 0.9800  0.9400
+   5                          geo_distance(-km)                            lat/lon 0.898667 0.875767 0.839335 0.9000  0.9260
+   6                 node2vec-SGNS: LR hadamard clf@G_train naive (seen-edge bias) 0.873700 0.837800 0.797700 0.9033  0.8733
+   6                 node2vec-SGNS: LR hadamard                  clf@G_inner clean 0.865900 0.830800 0.790700 0.9000  0.8720
+   5                            pref_attachment                            G_train 0.707781 0.675459 0.650623 0.8600  0.7140
+   6                  node2vec-SGNS: LR average                  clf@G_inner clean 0.707000 0.686100 0.640600 0.8967  0.7300
+   6             PPMI-SVD(ablation): LR average                  clf@G_inner clean 0.693900 0.636500 0.645700 0.5700  0.6727
+   6                  node2vec-SGNS: LR average clf@G_train naive (seen-edge bias) 0.685700 0.666700 0.628200 0.8733  0.7167
+   6             PPMI-SVD(ablation): LR average clf@G_train naive (seen-edge bias) 0.684700 0.635400 0.637200 0.5833  0.6800

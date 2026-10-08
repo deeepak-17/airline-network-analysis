@@ -1,0 +1,49 @@
+nodes with country: 3262 of 3425
+                                          method  n_nodes_scored  NMI_country  ARI_country  purity_country  purity_country_shuffled_null  NMI_continent  ARI_continent  purity_continent  purity_continent_shuffled_null
+0                                         Leiden            3262        0.633        0.301           0.441                         0.172          0.717          0.568             0.880                           0.301
+1                                        Louvain            3262        0.636        0.300           0.446                         0.172          0.709          0.567             0.878                           0.302
+2         CPM k=3 (hardened, covered nodes only)            2362        0.255       -0.011           0.285                         0.203          0.211          0.019             0.439                           0.330
+3     Leiden restricted to same nodes as CPM k=3            2362        0.627        0.284           0.429                         0.161          0.723          0.576             0.876                           0.301
+4         CPM k=4 (hardened, covered nodes only)            1529        0.189        0.003           0.238                         0.171          0.187          0.038             0.406                           0.332
+5     Leiden restricted to same nodes as CPM k=4            1529        0.605        0.300           0.401                         0.150          0.737          0.626             0.873                           0.314
+6         CPM k=5 (hardened, covered nodes only)            1117        0.113        0.007           0.197                         0.165          0.116          0.025             0.358                           0.330
+7     Leiden restricted to same nodes as CPM k=5            1117        0.594        0.319           0.399                         0.157          0.752          0.676             0.874                           0.325
+8         CPM k=6 (hardened, covered nodes only)             881        0.051        0.004           0.194                         0.180          0.035         -0.003             0.322                           0.322
+9     Leiden restricted to same nodes as CPM k=6             881        0.592        0.346           0.419                         0.179          0.762          0.707             0.885                           0.331
+10        CPM k=8 (hardened, covered nodes only)             593        0.087        0.009           0.231                         0.205          0.100          0.019             0.346                           0.336
+11    Leiden restricted to same nodes as CPM k=8             593        0.592        0.372           0.437                         0.206          0.777          0.740             0.914                           0.350
+global route-row alliance share:
+ {'None': 0.51, 'Star Alliance': 0.172, 'SkyTeam': 0.16, 'oneworld': 0.157} 
+no-codeshare: {'None': 0.604, 'SkyTeam': 0.138, 'Star Alliance': 0.133, 'oneworld': 0.126}
+{'NMI_leiden_vs_airport_dominant_alliance': 0.10277210806700221, 'NMI_continent_vs_airport_dominant_alliance': 0.040795953647374816, 'NMI_leiden_vs_continent': 0.7168621686831717}
+           size    top_country  country_purity  top_continent  continent_purity  conductance             top_hubs  n_intra_route_rows  share_Star Alliance  share_oneworld  share_SkyTeam  share_None dominant_alliance  dominant_enrichment_vs_global
+community                                                                                                                                                                                                                                             
+0           672  United States            0.62  North America              0.96         0.09  ATL ORD DFW DEN IAH               14874                 0.16            0.27           0.19        0.38          oneworld                           1.71
+1           510          India            0.14           Asia              0.54         0.22  IST DXB DOH JED SAW                6390                 0.20            0.08           0.10        0.62     Star Alliance                           1.16
+2           509         France            0.11         Europe              0.89         0.13  AMS FRA CDG MUC LHR               16401                 0.13            0.12           0.08        0.67     Star Alliance                           0.76
+3           493          China            0.36           Asia              0.99         0.10  PEK PVG CAN HKG ICN               13157                 0.23            0.06           0.29        0.42           SkyTeam                           1.82
+4           284         Brazil            0.45  South America              1.00         0.14  GRU BOG LIM VCP GIG                2244                 0.08            0.23           0.08        0.61          oneworld                           1.46
+5           276      Australia            0.42        Oceania              0.99         0.10  SYD BNE MEL AKL PER                1644                 0.12            0.23           0.01        0.64          oneworld                           1.47
+6           185         Russia            0.62           Asia              0.64         0.29  DME SVO LED VKO SVX                2013                 0.00            0.09           0.13        0.78           SkyTeam                           0.80
+7           183  United States            1.00  North America              1.00         0.02  ANC BET FAI JNU OME                 634                 0.00            0.11           0.00        0.88          oneworld                           0.72
+8           103         Canada            1.00  North America              1.00         0.12  YQB YZF YYR YRT YZV                 423                 0.03            0.00           0.00        0.97     Star Alliance                           0.19
+9            52      Greenland            0.83  North America              0.83         0.01  JUV GOH JJU SFJ UMD                 132                 0.00            0.00           0.00        1.00              None                            NaN
+10           36         Canada            1.00  North America              1.00         0.08  YXL YQT YRL YPM YTS                 105                 0.00            0.00           0.00        1.00              None                            NaN
+11           28         Norway            1.00         Europe              1.00         0.18  TOS BOO HFT VDS ALF                 116                 0.06            0.00           0.00        0.94     Star Alliance                           0.35
+12           17         Panama            1.00  North America              1.00         0.04  PAC BOC ACU OGM SAX                  25                 0.00            0.00           0.00        1.00              None                            NaN
+13           12         Belize            1.00  North America              1.00         0.14  SPR TZA BCV DGA PLJ                  50                 0.00            0.00           0.00        1.00              None                            NaN
+14           10  New Caledonia            1.00        Oceania              1.00         0.00  GEA LIF BMY KOC TGJ                  23                 0.00            0.00           0.00        1.00              None                            NaN
+continent  size  Africa  Asia  Europe  North America  Oceania  South America
+community                                                                   
+0           672       0     0       1            636        1             27
+1           510     228   267       2              0        0              0
+2           509      48     9     449              0        0              0
+3           493       0   477       0              0        5              0
+4           284       0     0       0              0        0            277
+5           276       0     2       0              0      265              1
+6           185       0   116      65              0        0              0
+7           183       0     0       0            132        0              0
+8           103       0     0       0            103        0              0
+9            52       0     0       4             20        0              0
+10           36       0     0       0             36        0              0
+11           28       0     0      28              0        0              0

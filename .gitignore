@@ -1,0 +1,7 @@
+.venv/
+.claude/
+.DS_Store
+__pycache__/
+*.pyc
+# regenerable by goal3/run_goal3.py (45 MB)
+outputs/goal3/simrank.npy

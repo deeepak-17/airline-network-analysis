@@ -1,0 +1,31 @@
+a,b,simrank,a_name,a_country,b_name,b_country,a_indeg,b_indeg,km
+SLH,ZGU,0.40037982380489634,Sola Airport,Vanuatu,Gaua Island Airport,Vanuatu,3,3,41.09732512392124
+YCS,YUT,0.38247245657737017,Chesterfield Inlet Airport,Canada,Repulse Bay Airport,Canada,3,3,411.678926218136
+UAH,UAP,0.366627307388498,Ua Huka Airport,French Polynesia,Ua Pou Airport,French Polynesia,3,3,73.95747522567386
+MTV,TOH,0.36547130230874947,Mota Lava Airport,Vanuatu,Torres Airstrip,Vanuatu,3,3,122.05596678407021
+KKH,KPN,0.3533766620980583,Kongiganak Airport,United States,Kipnuk Airport,United States,3,3,64.11395944666789
+GEA,LIF,0.34633940590876666,Nouméa Magenta Airport,New Caledonia,Lifou Airport,New Caledonia,9,3,183.0460252174285
+YBK,YZS,0.3358912521681176,Baker Lake Airport,Canada,Coral Harbour Airport,Canada,3,4,613.5758596428975
+GLV,KKA,0.32867501864781407,Golovin Airport,United States,Koyuk Alfred Adams Airport,United States,3,3,97.96855567883279
+NDY,PPW,0.32542729841619306,Sanday Airport,United Kingdom,Papa Westray Airport,United Kingdom,3,3,21.554763678720313
+YAX,YTL,0.32434026910687686,Wapekeka Airport,Canada,Big Trout Lake Airport,Canada,3,5,21.124700246495344
+HUH,MAU,0.32094411507182663,Huahine-Fare Airport,French Polynesia,Maupiti Airport,French Polynesia,4,3,133.4328983385443
+NPL,TRG,0.3183728996988421,New Plymouth Airport,New Zealand,Tauranga Airport,New Zealand,3,3,230.28628291354414
+NPL,ROT,0.3183728996988421,New Plymouth Airport,New Zealand,Rotorua Regional Airport,New Zealand,3,3,211.08592054904412
+BHE,NPE,0.3183728996988421,Woodbourne Airport,New Zealand,Hawke's Bay Airport,New Zealand,3,3,341.20106269669816
+BHE,NPL,0.3183728996988421,Woodbourne Airport,New Zealand,New Plymouth Airport,New Zealand,3,3,280.2943742862755
+BHE,ROT,0.3183728996988421,Woodbourne Airport,New Zealand,Rotorua Regional Airport,New Zealand,3,3,432.8253089756388
+BHE,TRG,0.3183728996988421,Woodbourne Airport,New Zealand,Tauranga Airport,New Zealand,3,3,471.8047496915413
+NPE,ROT,0.3183728996988421,Hawke's Bay Airport,New Zealand,Rotorua Regional Airport,New Zealand,3,3,158.27772285252186
+ROT,TRG,0.3183728996988421,Rotorua Regional Airport,New Zealand,Tauranga Airport,New Zealand,3,3,49.77115261302493
+NPE,NPL,0.3183728996988421,Hawke's Bay Airport,New Zealand,New Plymouth Airport,New Zealand,3,3,237.26016635051488
+NPE,TRG,0.3183728996988421,Hawke's Bay Airport,New Zealand,Tauranga Airport,New Zealand,3,3,207.8989793441125
+IXA,IXS,0.31204953587736767,Agartala Airport,India,Silchar Airport,India,3,3,209.75340730400106
+AJL,IXS,0.31204953587736767,Lengpui Airport,India,Silchar Airport,India,3,3,124.65506697727653
+AJL,IXA,0.31204953587736767,Lengpui Airport,India,Agartala Airport,India,3,3,140.35325415602543
+GAJ,KCZ,0.3107322242406988,Yamagata Airport,Japan,Kōchi Ryōma Airport,Japan,3,3,809.7618042305311
+CGA,HYL,0.30842383493737224,,,,,4,3,
+ELI,SKK,0.3056349187714025,Elim Airport,United States,Shaktoolik Airport,United States,3,3,57.02449625473402
+YHK,YYH,0.3039285862601793,Gjoa Haven Airport,Canada,Taloyoak Airport,Canada,3,3,135.62908208238622
+BFN,GRJ,0.3031254173843591,Bram Fischer International Airport,South Africa,George Airport,South Africa,3,3,660.6539214728552
+GZO,VAO,0.3016943426557721,Nusatupe Airport,Solomon Islands,Suavanao Airport,Solomon Islands,5,3,213.40040869738718

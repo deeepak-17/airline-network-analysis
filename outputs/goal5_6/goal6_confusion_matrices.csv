@@ -1,0 +1,10 @@
+task,model,classes,cm
+A continent,majority,Africa|Asia|Europe|North America|Oceania|South America,"[[0, 0, 0, 262, 0, 0], [0, 0, 0, 803, 0, 0], [0, 0, 0, 567, 0, 0], [0, 0, 0, 941, 0, 0], [0, 0, 0, 276, 0, 0], [0, 0, 0, 298, 0, 0]]"
+A continent,node2vec LogReg,Africa|Asia|Europe|North America|Oceania|South America,"[[241, 6, 15, 0, 0, 0], [7, 769, 26, 0, 1, 0], [13, 32, 522, 0, 0, 0], [0, 0, 3, 931, 3, 4], [0, 4, 0, 1, 269, 2], [0, 0, 0, 2, 0, 296]]"
+A continent,node2vec RandomForest,Africa|Asia|Europe|North America|Oceania|South America,"[[226, 9, 27, 0, 0, 0], [1, 783, 19, 0, 0, 0], [0, 27, 539, 1, 0, 0], [0, 0, 2, 937, 0, 2], [0, 5, 0, 1, 267, 3], [0, 0, 0, 5, 0, 293]]"
+B1 hub (label: full-graph degree),majority,0|1,"[[3251, 0], [174, 0]]"
+B1 hub (label: full-graph degree),node2vec LogReg,0|1,"[[3220, 31], [105, 69]]"
+B1 hub (label: full-graph degree),node2vec RandomForest,0|1,"[[3251, 0], [171, 3]]"
+B2 hub (label: G_train degree; leaky),majority,0|1,"[[3252, 0], [173, 0]]"
+B2 hub (label: G_train degree; leaky),node2vec LogReg,0|1,"[[3227, 25], [100, 73]]"
+B2 hub (label: G_train degree; leaky),node2vec RandomForest,0|1,"[[3252, 0], [172, 1]]"

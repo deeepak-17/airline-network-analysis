@@ -1,0 +1,293 @@
+{
+ "raw_rows": 67663,
+ "raw_missing_src_or_dest": 0,
+ "raw_self_loops": 1,
+ "raw_exact_duplicate_rows": 0,
+ "rows_after_loader": 67662,
+ "n": 3425,
+ "m_directed": 37594,
+ "m_undirected": 19256,
+ "density_directed": 0.0032057098028514907,
+ "density_undirected": 0.0032839893580735384,
+ "avg_in_deg": 10.976350364963503,
+ "avg_total_deg_undirected": 11.244379562043795,
+ "self_loops_in_graph": 0,
+ "nodes_missing_metadata": 163,
+ "n_wcc": 8,
+ "largest_wcc": 3397,
+ "n_scc": 44,
+ "largest_scc": 3354,
+ "scc_singletons": 35,
+ "undirected_LCC_avg_path": 4.103241167898093,
+ "undirected_LCC_diameter": 13,
+ "directed_LSCC_avg_path": 4.125979351521906,
+ "directed_LSCC_diameter": 14,
+ "directed_reachable_pair_frac": 0.971318388021011,
+ "directed_avg_path_reachable_pairs": 4.146204517750878,
+ "directed_diameter_over_reachable": 14,
+ "deg_in": {
+  "mean": 10.976350364963503,
+  "median": 3.0,
+  "max": 238,
+  "max_airport": "FRA",
+  "std": 24.134510887214162
+ },
+ "deg_out": {
+  "mean": 10.976350364963503,
+  "median": 3.0,
+  "max": 239,
+  "max_airport": "FRA",
+  "std": 24.208480959046113
+ },
+ "deg_total_undirected": {
+  "mean": 11.244379562043795,
+  "median": 3.0,
+  "max": 248,
+  "max_airport": "AMS",
+  "std": 24.46186268747614
+ },
+ "frac_total_deg_1": 0.22423357664233576,
+ "assort_undirected_degree": -0.006455523457166176,
+ "assort_directed_in_in": -0.009968312963527891,
+ "assort_directed_in_out": -0.010287515990819535,
+ "assort_directed_out_in": -0.01046340558708171,
+ "assort_directed_out_out": -0.0107875737795888,
+ "assort_null_rewired_mean": -0.09723562505931614,
+ "assort_null_rewired_std": 0.00447050962155974,
+ "knn_slope_loglog": -0.013007970289905421,
+ "transitivity_undirected": 0.24830297528765316,
+ "avg_clustering_undirected": 0.48709335661295583,
+ "avg_clustering_undirected_excl_deg_lt2": 0.6278866188932531,
+ "avg_clustering_directed_fagiolo": 0.46920879720635067,
+ "ER_expected_clustering_approx": 0.0032839893580735384,
+ "reciprocity_edge_fraction": 0.975581209767516,
+ "reciprocal_directed_edges": 36676,
+ "reciprocal_pairs": 18338,
+ "one_way_edges": 918,
+ "reciprocity_ER_expectation": 0.0032057098028514907,
+ "reciprocity_route_weighted": 0.9842895569152552,
+ "max_core_undirected": 31,
+ "innermost_core_size": 93,
+ "innermost_core_countries": {
+  "Spain": 11,
+  "United Kingdom": 11,
+  "France": 9,
+  "Germany": 9,
+  "Italy": 8,
+  "Greece": 4,
+  "Turkey": 3,
+  "Russia": 3,
+  "Portugal": 3,
+  "Netherlands": 2,
+  "Belgium": 2,
+  "Morocco": 2,
+  "Switzerland": 2,
+  "Poland": 2,
+  "Sweden": 1,
+  "Denmark": 1,
+  "Norway": 1,
+  "Tunisia": 1,
+  "United States": 1,
+  "Ireland": 1,
+  "Latvia": 1,
+  "United Arab Emirates": 1,
+  "Luxembourg": 1,
+  "Austria": 1,
+  "Finland": 1,
+  "Qatar": 1,
+  "Israel": 1,
+  "Hungary": 1,
+  "Czech Republic": 1,
+  "Bulgaria": 1,
+  "Romania": 1,
+  "Ukraine": 1,
+  "Malta": 1,
+  "Cyprus": 1,
+  "Serbia": 1,
+  "Croatia": 1
+ },
+ "innermost_core_is_clique_density": 0.5275829827021973,
+ "spearman_core_vs_degree": 0.9722500054641724,
+ "spearman_core_vs_betweenness": 0.6758281337737472,
+ "top10_deg_in_innermost_core": [
+  "AMS",
+  "FRA",
+  "CDG",
+  "IST",
+  "MUC",
+  "DME"
+ ]
+}
+                   deg_und  betweenness_dir  closeness_und_LCC  eigenvector_und
+deg_und              1.000            0.774              0.687            0.718
+betweenness_dir      0.774            1.000              0.416            0.424
+closeness_und_LCC    0.687            0.416              1.000            0.969
+eigenvector_und      0.718            0.424              0.969            1.000
+             measure  rank iata                                              name               country       value
+0            deg_und     1  AMS                        Amsterdam Airport Schiphol           Netherlands  248.000000
+1            deg_und     2  FRA                         Frankfurt am Main Airport               Germany  244.000000
+2            deg_und     3  CDG           Charles de Gaulle International Airport                France  240.000000
+3            deg_und     4  IST                                  Istanbul Airport                Turkey  236.000000
+4            deg_und     5  ATL  Hartsfield Jackson Atlanta International Airport         United States  217.000000
+5            deg_und     6  PEK             Beijing Capital International Airport                 China  207.000000
+6            deg_und     7  ORD              Chicago O'Hare International Airport         United States  206.000000
+7            deg_und     8  MUC                                    Munich Airport               Germany  192.000000
+8            deg_und     9  DME                  Domodedovo International Airport                Russia  190.000000
+9            deg_und    10  DXB                       Dubai International Airport  United Arab Emirates  188.000000
+0    betweenness_dir     1  ANC       Ted Stevens Anchorage International Airport         United States    0.070204
+1    betweenness_dir     2  LAX                 Los Angeles International Airport         United States    0.066164
+2    betweenness_dir     3  CDG           Charles de Gaulle International Airport                France    0.061703
+3    betweenness_dir     4  DXB                       Dubai International Airport  United Arab Emirates    0.059350
+4    betweenness_dir     5  FRA                         Frankfurt am Main Airport               Germany    0.051000
+5    betweenness_dir     6  PEK             Beijing Capital International Airport                 China    0.049167
+6    betweenness_dir     7  ORD              Chicago O'Hare International Airport         United States    0.047430
+7    betweenness_dir     8  SEA              Seattle Tacoma International Airport         United States    0.045268
+8    betweenness_dir     9  AMS                        Amsterdam Airport Schiphol           Netherlands    0.042658
+9    betweenness_dir    10  YYZ           Lester B. Pearson International Airport                Canada    0.042527
+0  closeness_und_LCC     1  FRA                         Frankfurt am Main Airport               Germany    0.401846
+1  closeness_und_LCC     2  CDG           Charles de Gaulle International Airport                France    0.399388
+2  closeness_und_LCC     3  LHR                           London Heathrow Airport        United Kingdom    0.397332
+3  closeness_und_LCC     4  AMS                        Amsterdam Airport Schiphol           Netherlands    0.393056
+4  closeness_und_LCC     5  DXB                       Dubai International Airport  United Arab Emirates    0.392692
+5  closeness_und_LCC     6  LAX                 Los Angeles International Airport         United States    0.388825
+6  closeness_und_LCC     7  JFK              John F Kennedy International Airport         United States    0.386744
+7  closeness_und_LCC     8  YYZ           Lester B. Pearson International Airport                Canada    0.382260
+8  closeness_und_LCC     9  IST                                  Istanbul Airport                Turkey    0.380206
+9  closeness_und_LCC    10  ORD              Chicago O'Hare International Airport         United States    0.379611
+0    eigenvector_und     1  AMS                        Amsterdam Airport Schiphol           Netherlands    0.167860
+1    eigenvector_und     2  FRA                         Frankfurt am Main Airport               Germany    0.166395
+2    eigenvector_und     3  CDG           Charles de Gaulle International Airport                France    0.159453
+3    eigenvector_und     4  MUC                                    Munich Airport               Germany    0.148529
+4    eigenvector_und     5  FCO               Leonardo da Vinci–Fiumicino Airport                 Italy    0.136342
+5    eigenvector_und     6  LHR                           London Heathrow Airport        United Kingdom    0.136132
+6    eigenvector_und     7  IST                                  Istanbul Airport                Turkey    0.129343
+7    eigenvector_und     8  BCN                   Barcelona International Airport                 Spain    0.128134
+8    eigenvector_und     9  ZRH                                    Zürich Airport           Switzerland    0.126003
+9    eigenvector_und    10  MAD              Adolfo Suárez Madrid–Barajas Airport                 Spain    0.122964
+     k  shell_size  core_size
+0    0           0       3425
+1    1         816       3425
+2    2         863       2609
+3    3         422       1746
+4    4         232       1324
+5    5         125       1092
+6    6          91        967
+7    7         113        876
+8    8          72        763
+9    9          86        691
+10  10          37        605
+11  11          42        568
+12  12          36        526
+13  13          22        490
+14  14          25        468
+15  15          22        443
+16  16          21        421
+17  17          21        400
+18  18          27        379
+19  19          22        352
+20  20          24        330
+21  21           2        306
+22  22          27        304
+23  23          22        277
+24  24          18        255
+25  25          42        237
+26  26          20        195
+27  27           9        175
+28  28          17        166
+29  29          11        149
+30  30          45        138
+31  31          93         93
+   iata                                               name               country  deg_und  betweenness
+0   AMS                         Amsterdam Airport Schiphol           Netherlands      248     0.042658
+1   FRA                          Frankfurt am Main Airport               Germany      244     0.051000
+2   CDG            Charles de Gaulle International Airport                France      240     0.061703
+3   IST                                   Istanbul Airport                Turkey      236     0.041219
+4   MUC                                     Munich Airport               Germany      192     0.015418
+5   DME                   Domodedovo International Airport                Russia      190     0.029417
+6   DXB                        Dubai International Airport  United Arab Emirates      188     0.059350
+7   LHR                            London Heathrow Airport        United Kingdom      172     0.038385
+8   LGW                             London Gatwick Airport        United Kingdom      165     0.010020
+9   BCN                    Barcelona International Airport                 Spain      163     0.010296
+10  JFK               John F Kennedy International Airport         United States      162     0.025764
+11  FCO                Leonardo da Vinci–Fiumicino Airport                 Italy      162     0.012168
+12  MAD               Adolfo Suárez Madrid–Barajas Airport                 Spain      159     0.022659
+13  STN                            London Stansted Airport        United Kingdom      153     0.004725
+14  BRU                                   Brussels Airport               Belgium      153     0.007807
+15  MAN                                 Manchester Airport        United Kingdom      148     0.006886
+16  DUS                                 Düsseldorf Airport               Germany      147     0.005511
+17  DUB                                     Dublin Airport               Ireland      144     0.007176
+18  SVO                 Sheremetyevo International Airport                Russia      144     0.017448
+19  VIE                       Vienna International Airport               Austria      139     0.004610
+20  ZRH                                     Zürich Airport           Switzerland      137     0.007802
+21  PMI                          Palma De Mallorca Airport                 Spain      127     0.003667
+22  ARN                          Stockholm-Arlanda Airport                Sweden      124     0.018858
+23  ORY                                 Paris-Orly Airport                France      123     0.009680
+24  CPH                         Copenhagen Kastrup Airport               Denmark      122     0.026612
+25  DOH                        Hamad International Airport                 Qatar      118     0.017419
+26  AGP                                     Málaga Airport                 Spain      117     0.002393
+27  LED                                    Pulkovo Airport                Russia      113     0.007824
+28  MXP                     Malpensa International Airport                 Italy      113     0.003842
+29  TXL                               Berlin-Tegel Airport               Germany      110     0.002683
+30  OSL                                      Oslo Lufthavn                Norway      105     0.014111
+31  ATH        Eleftherios Venizelos International Airport                Greece      104     0.010587
+32  LIS  Humberto Delgado Airport (Lisbon Portela Airport)              Portugal      103     0.014139
+33  GVA              Geneva Cointrin International Airport           Switzerland      101     0.001530
+34  SAW                Sabiha Gökçen International Airport                Turkey       98     0.003656
+35  ALC                     Alicante International Airport                 Spain       96     0.002167
+36  PRG                        Václav Havel Airport Prague        Czech Republic       94     0.001389
+37  CMN                   Mohammed V International Airport               Morocco       93     0.007066
+38  CGN                               Cologne Bonn Airport               Germany       93     0.000604
+39  NCE                           Nice-Côte d'Azur Airport                France       90     0.002477
+40  HEL                            Helsinki Vantaa Airport               Finland       89     0.011463
+41  EDI                                  Edinburgh Airport        United Kingdom       89     0.002988
+42  HAM                                    Hamburg Airport               Germany       87     0.000630
+43  MRS                         Marseille Provence Airport                France       86     0.003477
+44  LTN                               London Luton Airport        United Kingdom       85     0.002049
+45  TFS                             Tenerife South Airport                 Spain       85     0.000963
+46  CRL                   Brussels South Charleroi Airport               Belgium       83     0.000536
+47  LPA                               Gran Canaria Airport                 Spain       83     0.002130
+48  STR                                  Stuttgart Airport               Germany       81     0.000526
+49  BHX                   Birmingham International Airport        United Kingdom       81     0.001269
+50  BGY                Il Caravaggio International Airport                 Italy       80     0.001873
+51  TLV                   Ben Gurion International Airport                Israel       79     0.004123
+52  LYS                         Lyon Saint-Exupéry Airport                France       78     0.002792
+53  WAW                              Warsaw Chopin Airport                Poland       78     0.002097
+54  BUD        Budapest Liszt Ferenc International Airport               Hungary       77     0.000620
+55  MLA                        Malta International Airport                 Malta       77     0.000785
+56  VCE                          Venice Marco Polo Airport                 Italy       73     0.001550
+57  BRS                                    Bristol Airport        United Kingdom       73     0.000693
+58  SXF                          Berlin-Schönefeld Airport               Germany       69     0.000276
+59  OTP                 Henri Coandă International Airport               Romania       68     0.002971
+60  RIX                         Riga International Airport                Latvia       68     0.000560
+61  BSL        EuroAirport Basel-Mulhouse-Freiburg Airport                France       66     0.000199
+62  PSA                         Pisa International Airport                 Italy       65     0.000497
+63  AYT                      Antalya International Airport                Turkey       65     0.000902
+64  FAO                                       Faro Airport              Portugal       64     0.000651
+65  BLQ                  Bologna Guglielmo Marconi Airport                 Italy       64     0.000285
+66  EIN                                  Eindhoven Airport           Netherlands       63     0.000314
+67  GLA                      Glasgow International Airport        United Kingdom       63     0.005735
+68  KBP                     Boryspil International Airport               Ukraine       62     0.001219
+69  HER  Heraklion International Nikos Kazantzakis Airport                Greece       62     0.000442
+70  TUN               Tunis Carthage International Airport               Tunisia       61     0.003095
+71  OPO                   Francisco de Sá Carneiro Airport              Portugal       61     0.002301
+72  IBZ                                      Ibiza Airport                 Spain       59     0.000140
+73  VLC                                   Valencia Airport                 Spain       57     0.000276
+74  ACE                                  Lanzarote Airport                 Spain       57     0.000201
+75  NTE                          Nantes Atlantique Airport                France       56     0.000232
+76  LUX            Luxembourg-Findel International Airport            Luxembourg       56     0.000331
+77  FUE                              Fuerteventura Airport                 Spain       55     0.000188
+78  SKG       Thessaloniki Macedonia International Airport                Greece       55     0.000623
+79  LCA                      Larnaca International Airport                Cyprus       55     0.000254
+80  KRK          Kraków John Paul II International Airport                Poland       52     0.000165
+81  BEG                      Belgrade Nikola Tesla Airport                Serbia       52     0.000586
+82  RHO                                   Diagoras Airport                Greece       51     0.001086
+83  NAP                       Naples International Airport                 Italy       51     0.000073
+84  HAJ                                   Hannover Airport               Germany       51     0.000057
+85  LBA                             Leeds Bradford Airport        United Kingdom       51     0.000134
+86  CTA                       Catania-Fontanarossa Airport                 Italy       50     0.000172
+87  NCL                                  Newcastle Airport        United Kingdom       49     0.000184
+88  RAK                                     Menara Airport               Morocco       49     0.000395
+89  BOD                          Bordeaux-Mérignac Airport                France       49     0.000211
+90  TLS                           Toulouse-Blagnac Airport                France       47     0.001648
+91  DBV                                  Dubrovnik Airport               Croatia       42     0.000205
+92  SOF                                      Sofia Airport              Bulgaria       41     0.000107

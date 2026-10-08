@@ -1,0 +1,16 @@
+airport,name,country,degree_undirected
+AMS,Amsterdam Airport Schiphol,Netherlands,248
+FRA,Frankfurt am Main Airport,Germany,244
+CDG,Charles de Gaulle International Airport,France,240
+IST,Istanbul Airport,Turkey,236
+ATL,Hartsfield Jackson Atlanta International Airport,United States,217
+PEK,Beijing Capital International Airport,China,207
+ORD,Chicago O'Hare International Airport,United States,206
+MUC,Munich Airport,Germany,192
+DME,Domodedovo International Airport,Russia,190
+DFW,Dallas Fort Worth International Airport,United States,188
+DXB,Dubai International Airport,United Arab Emirates,188
+LHR,London Heathrow Airport,United Kingdom,172
+DEN,Denver International Airport,United States,170
+IAH,George Bush Intercontinental Houston Airport,United States,169
+LGW,London Gatwick Airport,United Kingdom,165

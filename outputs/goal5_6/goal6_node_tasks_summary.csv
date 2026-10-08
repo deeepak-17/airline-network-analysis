@@ -1,0 +1,20 @@
+task,model,accuracy,precision,recall,f1,f1_fold_mean,f1_fold_sd,f1_sd_over_emb_seeds
+A continent,PPMI-SVD LogReg (ablation),0.9676,0.9668,0.9611,0.9639,0.9637,0.0075,0.0025
+A continent,PPMI-SVD RandomForest (ablation),0.9719,0.9735,0.9644,0.9686,0.9685,0.0071,0.0036
+A continent,degree-only LogReg,0.3143,0.1549,0.191,0.1373,0.1361,0.006,0.0
+A continent,degree-only RF,0.3047,0.2053,0.1861,0.1506,0.1499,0.0086,0.0025
+A continent,majority,0.299,0.0498,0.1667,0.0767,0.0767,0.0001,0.0
+A continent,node2vec LogReg,0.9683,0.9674,0.9651,0.9662,0.9662,0.0086,0.0064
+A continent,node2vec RandomForest,0.9699,0.9751,0.9587,0.9661,0.9659,0.0112,0.0022
+B1 hub (label: full-graph degree),PPMI-SVD LogReg (ablation),0.9482,0.2967,0.0115,0.022,0.0205,0.0337,0.0108
+B1 hub (label: full-graph degree),PPMI-SVD RandomForest (ablation),0.9533,0.7695,0.1149,0.2,0.197,0.064,0.0095
+B1 hub (label: full-graph degree),degree-only LogReg,0.995,0.9816,0.9195,0.9496,0.9494,0.0181,0.0
+B1 hub (label: full-graph degree),degree-only RF,0.9921,0.9249,0.9195,0.9222,0.9221,0.0137,0.0074
+B1 hub (label: full-graph degree),majority,0.9492,0.0,0.0,0.0,0.0,0.0,0.0
+B1 hub (label: full-graph degree),node2vec LogReg,0.9599,0.6798,0.3985,0.5024,0.4973,0.0879,0.0091
+B1 hub (label: full-graph degree),node2vec RandomForest,0.9502,1.0,0.0192,0.0376,0.0363,0.0495,0.0064
+B2 hub (label: G_train degree; leaky),degree-only LogReg,0.9971,1.0,0.9422,0.9702,0.9699,0.0216,0.0
+B2 hub (label: G_train degree; leaky),degree-only RF,1.0,1.0,1.0,1.0,1.0,0.0,0.0
+B2 hub (label: G_train degree; leaky),majority,0.9495,0.0,0.0,0.0,0.0,0.0,0.0
+B2 hub (label: G_train degree; leaky),node2vec LogReg,0.9634,0.7365,0.4297,0.5425,0.5329,0.0972,0.0065
+B2 hub (label: G_train degree; leaky),node2vec RandomForest,0.9498,1.0,0.0058,0.0115,0.0111,0.0222,0.0
